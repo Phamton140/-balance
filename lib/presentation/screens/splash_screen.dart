@@ -100,7 +100,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
               )
                   .animate()
                   .fadeIn(duration: 1000.ms)
-                  .scale(duration: 1000.ms, curve: Curves.outBack)
+                  .scale(duration: 1000.ms, curve: Curves.easeOutBack)
                   .then()
                   .shimmer(duration: 1500.ms, color: Colors.white.withOpacity(0.5)),
 

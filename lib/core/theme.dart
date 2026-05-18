@@ -115,7 +115,7 @@ class AppTheme {
           ),
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: bgCard,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
